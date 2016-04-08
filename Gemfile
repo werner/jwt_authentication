@@ -13,5 +13,5 @@ gemspec
 # To use debugger
 # gem 'debugger'
 
-gem 'devise'
+gem 'devise', '4.0.0.rc1'
 gem 'jwt'
