@@ -39,7 +39,7 @@ module JwtAuthentication
   end
 
   def self.adapter_dependency_fulfilled? adapter_short_name
-    qualified_const_defined?(JwtAuthentication.adapters_dependencies[adapter_short_name])
+    const_defined?(JwtAuthentication.adapters_dependencies[adapter_short_name])
   end
 
   available_model_adapters = load_available_adapters JwtAuthentication.model_adapters
