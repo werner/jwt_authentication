@@ -23,7 +23,7 @@ Add the gem to your `Gemfile`:
 ```ruby
 # Gemfile
 
-gem 'jwt_authentication', github: 'Rezonans/jwt_authentication'
+gem 'jwt_authentication', github: 'werner/jwt_authentication'
 ```
 
 Using
